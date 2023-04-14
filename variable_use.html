@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // var rad = 10
+        // var pi = 3.14
+        // alert (pi*(rad^2))
+        const array = [273, '문자열', true, function(){} ,[21, 115]];
+        alert(array.length)
+
+        // console.log(array[0]);
+        // console.log(array[1]);
+        // console.log(array[2]);
+        // console.log(array[3]);
+        // console.log(array[4]);
+        // console.log("배열의길이는"+array.length);
+
+        var a = 0;
+        while(a < array.length){
+            console.log(array[a]);
+            a++;
+        }
+
+        for(a = 0; a <= array.length - 1; a++){
+            console.log(a +"번째 내용 : "+array[a]);
+        }
+        var result = 0;
+        for(a = 1; a <= 10000; a+2){
+            result+=a;
+        }
+        console.log(result);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
